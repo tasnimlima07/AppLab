@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+
+
+/*======================================
+ INDEX OF
+ 1)Basic 
+ 2)Header
+ 3)Banner
+ =======================================*/
+
+
+
+
+/*======================================
+ 1)Basic 
+=======================================*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+:root{
+    --main-color: #242f51
+}
+
+p{
+    font-size: 16px;
+    margin: 0;
+    color: #616368;
+    
+}
+
+.mybtn{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 15px 30px;
+}
+
+.mybtn:hover{
+    background-color: #feaa25;
+    color: white;
+}
+
+section{
+    padding: 80px 0;
+}
+
+
+
+ /*======================================
+ 2)Header
+ =======================================*/
+header{
+    height: 120px;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+header .navbar-brand{
+    font-size: 30px;
+    font-weight: 800;
+    color: #fcae61;
+}
+
+header .navbar-brand span{
+    
+    color: var(--main-color);
+}
+
+     
+header .nav-link{
+    color: var(--main-color);
+    margin: 0 13px;
+}
+
+header .nav-link:hover{
+    margin: 0 13px;
+    color: #fcae61;
+
+}
+
+/*======================================
+ 1)Banner 
+=======================================*/
+#hero{
+    height: 90vh;
+    background: url('assets/img/down.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0px !important;
+}
+
+#hero .htop{
+    background-color: #e2eaed;
+}
+
+#hero .htop i{
+    background-color: #feaa25;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 12px;
+
+}
+
+
+.hdt{
+    padding: 8px 0px;
+}
+
+#hero .htop p{
+    color: var(--main-color);
+}
+#hero h2{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--main-color);
+    
+}
+
+#hero p{
+    color: #616368;
+    font-size: 18px;
+}
+
+#hero .hbbox{
+    margin: 30px 0;
+    
+}
+
+#hero .screenimg{
+    width: 60%;
+}
+
+
+
+/* client section */
+
+#ourclient .title{
+    margin-bottom: 38px;
+    color: #242f51;
+}
+/* Add this CSS code to your stylesheet */
+
+.bandbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .bandbox img {
+    max-width: 140px; /* Adjust the max-width as needed */
+    padding: 5px; /* Adjust the padding as needed */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+  }
+
+.bandbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .bandbox img {
+    max-width: 140; /* Adjust the max-width as needed */
+    padding: 5px; /* Adjust the padding as needed */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .bandbox img:hover {
+    transform: scale(1.2); /* Increase the size on hover (you can adjust the scale factor) */
+  }
+
+
+  
+ /*======================================
+ Feature Area
+ =======================================*/
+ #navbarTogglerDemo01 .img-area{
+    max-width: 100;
+    
+ }
+
+ #awesomeAppsSection .ok{
+    max-width: 95%; /* Adjust the max-width as needed */
+    padding: 5px; /* Adjust the padding as needed */
+    box-sizing: border-box; /
+
+ }
+
+ .headerarea h2{
+    font-size: 36px;
+    color: var(--main-color);
+    font-weight: 600;
+    padding-left: 30px;
+
+ }
+
+ #awesomeAppsSection p, h4{
+    padding-left: 30px;
+    padding-right: 30px;
+ }
+.text1 h4{
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #f55767;
+    font-weight: 600;
+ }
+ .text2 h4{
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #2563ff;
+    font-weight: 600;
+ }
+ .text3 h4{
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #40975f;
+    font-weight: 600;
+ }
+
+ #section3 .jackpot .col-md-6{
+    padding-left: 100px ;
+  }
+
+ /* section3====================
+ ============================== */
+ /* Part1====================
+ ============================== */
+
+ #section3 .smart h4{
+    font-size: 40px;
+    border-right: solid 0.5px #4b4a48;
+    color: #242f51;
+    font-weight:600;   
+    padding-left: 0;
+
+ }
+ #section3 .smart2 p{
+    padding-top: 30px;
+    margin-left: -50px;
+
+ }
+  /* Part2====================
+ ============================== */
+ #section3 .jackpot2{
+    padding-top: 55px;
+ }
+  
+ #section3 .jackpot2 .jacktext h4{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #f55767;
+    font-weight: 600;
+ }
+
+ #section3 .jackpot2 .jacktext2 h4{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #2563ff;
+    font-weight: 600;
+ }
+
+ #section3 .jackpot2 .jacktext3 h4{
+    padding: 0;
+    margin: 10px 0;
+    font-size: 20px;
+    color: #40975f;
+    font-weight: 600;
+ }
+
+
+ #section3 .icon{
+    padding-bottom: 15px;
+ }
+
+ 
+
+ #section3 .jackpot2 .col-md-4{
+    padding-left: 100px ;
+  }
+
+
+/* last part of jackpot */
+#section3 .integration{
+    padding: 80px 0;
+} 
+#section3 .integration .intimg{
+    width: 90%;    
+}
+
+#section3 .integration-head h2{
+    font-size: 38px;
+    color: #242f51;
+    font-weight:600;   
+    padding-top: 60px;
+
+}
+
+#section3 .integration-head p{
+    padding-top: 20px;
+
+}
+#section3 .jkbtn{
+    padding-top: 25px;
+}
+  
+/* section4 started =================
+=================================== */
+#section4 .ourapp h2{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #242f51;
+
+}
+
+#section4 .ourapp{
+    padding-bottom: 90px;
+}
+
+#section4 .ourapp p{
+    text-align: center;
+    padding-top: 45px;
+
+}
+
+/* icon section===========
+================== */
+#section4 .appicon .row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75px;
+  }
+  
+#section4 .col-md-4 {
+    text-align: center;
+  }
+  
+#section4 .icon img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    padding-bottom: 42px;
+}
+#section4{
+    padding-bottom: 190px;
+}
+  
+
+/* Ultimate features that we built==
+================================= */
+#section5 .uptext{
+    margin-bottom: 60px ;
+}
+#section5 .uptext h2{
+    color: #242f51;
+}
+
+#section5 .row .icon h4 {
+    color: #242f51;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+#section5 .sec5text .sec5{
+    font-size: 20px;
+    color: var(--main-color);
+    padding: 30px 0px 2px 0px;
+}
+#section5 .row1{
+    padding-bottom: 40px;
+}
+
+.sec5btn{
+    padding-top: 20px;
+}
